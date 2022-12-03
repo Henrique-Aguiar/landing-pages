@@ -6,7 +6,5 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
   }
 
-  body {
-
-  }
+  body {}
 `;
