@@ -1,0 +1,17 @@
+import { NavLinks } from '.';
+
+export default {
+  title: 'NavLinks',
+  component: NavLinks,
+  args: {
+    links: [],
+  },
+};
+
+export const Template = (args) => {
+  return (
+    <div>
+      <NavLinks {...args} />
+    </div>
+  );
+};
