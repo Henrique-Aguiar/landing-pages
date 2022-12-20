@@ -28,8 +28,8 @@ describe('<NavLinks />', () => {
     );
   });
   it('should match snaphot', () => {
-    renderTheme(<NavLinks links={mock} />);
+    const { container } = renderTheme(<NavLinks links={mock} />);
 
-    expect(screen.getAllByRole('link')).toMatchSnapshot();
+    expect(container.firstChild).toMatchSnapshot();
   });
 });

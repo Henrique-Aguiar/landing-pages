@@ -24,13 +24,13 @@ describe('<MenuLink />', () => {
     );
   });
   it('should render open in a new tab', () => {
-    renderTheme(
+    const { container } = renderTheme(
       <MenuLink link="http://localhost" newTab={true}>
         texto
       </MenuLink>,
     );
 
-    expect(screen.getByRole('link', { name: 'texto' })).toMatchInlineSnapshot(`
+    expect(container.firstChild).toMatchInlineSnapshot(`
       .c0 {
         display: block;
         -webkit-text-decoration: none;
