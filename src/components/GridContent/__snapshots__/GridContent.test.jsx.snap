@@ -47,11 +47,11 @@ exports[`<GridContent /> should render grid content 1`] = `
       <div
         class=""
       >
-        <h1
+        <h2
           class="c2"
         >
           O título que eu quero
-        </h1>
+        </h2>
         <div
           class=""
         >
@@ -201,11 +201,11 @@ exports[`<GridContent /> should render grid content 2`] = `
       <div
         class=""
       >
-        <h1
+        <h2
           class="c2"
         >
           O título que eu quero
-        </h1>
+        </h2>
         <div
           class=""
         >
